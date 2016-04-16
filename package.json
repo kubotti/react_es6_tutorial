@@ -1,0 +1,26 @@
+{
+  "name": "react_es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ku",
+  "license": "MIT",
+  "devDependencies": {
+    "babelify": "^6.4.0",
+    "body-parser": "^1.15.0",
+    "browser-sync": "^2.12.3",
+    "browserify": "^13.0.0",
+    "express": "^4.13.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "jquery": "^2.2.3",
+    "marked": "^0.3.5",
+    "node-dev": "^2.6.2",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
