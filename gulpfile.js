@@ -5,7 +5,6 @@ var buffer = require('vinyl-buffer');
 var gulp = require('gulp');
 var node = require('node-dev');
 var source = require('vinyl-source-stream');
-var sourcemaps = require('gulp-sourcemaps');
 
 function errorHandler(err) {
   console.log('Error: ' + err.message);
@@ -36,7 +35,7 @@ gulp.task('build', function() {
 
 // ローカルサーバーの起動
 gulp.task('server', function() {
-  node(['./server.js']);
+  node('./server.js',[],[]);
 });
 
 // ファイル監視
